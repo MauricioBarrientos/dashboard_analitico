@@ -1,0 +1,30 @@
+{
+  "dashboard": {
+    "title": "Analytics Dashboard",
+    "filters": {
+      "title": "Filters",
+      "dateRange": "Date Range",
+      "metrics": "Metrics",
+      "categories": "Categories",
+      "clear": "Clear"
+    },
+    "charts": {
+      "timeSeries": "Time Series",
+      "stackedBar": "Stacked Bar",
+      "heatmap": "Heatmap"
+    },
+    "footer": {
+      "lastUpdated": "Last updated",
+      "version": "Version"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode"
+  }
+}

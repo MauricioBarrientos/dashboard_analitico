@@ -1,0 +1,30 @@
+{
+  "dashboard": {
+    "title": "Dashboard Analítico",
+    "filters": {
+      "title": "Filtros",
+      "dateRange": "Rango de Fechas",
+      "metrics": "Métricas",
+      "categories": "Categorías",
+      "clear": "Limpiar"
+    },
+    "charts": {
+      "timeSeries": "Series Temporales",
+      "stackedBar": "Barras Apiladas",
+      "heatmap": "Mapa de Calor"
+    },
+    "footer": {
+      "lastUpdated": "Última actualización",
+      "version": "Versión"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "reports": "Reportes",
+    "settings": "Configuración"
+  },
+  "theme": {
+    "light": "Modo Claro",
+    "dark": "Modo Oscuro"
+  }
+}
