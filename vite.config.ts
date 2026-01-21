@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/dashboard_analitico/',
   css: {
     postcss: './postcss.config.cjs', // This will help with Tailwind processing
   },
