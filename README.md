@@ -23,7 +23,7 @@ Un dashboard analítico moderno construido con React 18, TypeScript y Vite. Inco
 
 1. Clona el repositorio:
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/MauricioBarrientos/dashboard_analitico.git
 cd Dashboard_Analítico
 ```
 
