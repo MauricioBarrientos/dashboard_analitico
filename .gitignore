@@ -30,3 +30,4 @@ src-tauri/target/
 secret.*
 .env*.local
 !.gitignore
+.vercel

@@ -9,13 +9,13 @@ export const getAriaLabelForChart = (chartType: string, title: string) => {
 const getChartDescription = (chartType: string) => {
   switch(chartType) {
     case 'timeSeries':
-      return 'Gráfico de series temporales que muestra la evolución de datos a lo largo del tiempo';
+      return 'Time series chart showing data evolution over time';
     case 'stackedBar':
-      return 'Gráfico de barras apiladas para comparar diferentes categorías';
+      return 'Stacked bar chart for comparing different categories';
     case 'heatmap':
-      return 'Mapa de calor que representa la densidad de valores en una matriz';
+      return 'Heatmap representing density of values in a matrix';
     default:
-      return 'Gráfico visualizando datos analíticos';
+      return 'Chart visualizing analytical data';
   }
 };
 
@@ -25,7 +25,7 @@ export const focusFirstElement = (containerRef: React.RefObject<HTMLElement>) =>
     const firstFocusableElement = containerRef.current.querySelector(
       'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
     ) as HTMLElement;
-    
+
     if (firstFocusableElement) {
       firstFocusableElement.focus();
     }
@@ -39,7 +39,7 @@ export const handleKeyDown = (
   additionalKeys: string[] = []
 ) => {
   const validKeys = ['Enter', ' ', ...additionalKeys];
-  
+
   if (validKeys.includes(event.key)) {
     event.preventDefault();
     callback();
@@ -52,7 +52,7 @@ interface ScreenReaderOnlyProps {
 }
 
 export const ScreenReaderOnly: React.FC<ScreenReaderOnlyProps> = ({ children }) => (
-  <span 
+  <span
     style={{
       position: 'absolute',
       width: '1px',
